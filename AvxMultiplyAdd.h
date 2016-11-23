@@ -2,7 +2,9 @@
 #include <vector>
 #include <immintrin.h>
 
-//multiply a with b, add result to c
+//multiply a with b, add result to result
+//Requires a vector with length divisible by 8 (for chunking).
+//As such, make sure to pad vectors whose v.size()%8 != 0 such that it is the case.
 
 void AVXMultiplySum(vector<float> a, vector<float> b, vector<float> result)
 {
