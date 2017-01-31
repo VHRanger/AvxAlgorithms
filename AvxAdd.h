@@ -2,6 +2,8 @@
 #include <vector>
 #include <immintrin.h>
 
+using std::vector;
+
 //Fastest known algorithm to add two STL vectors, to the extent of my knowledge
 //Requires a vector with length divisible by 8 (for chunking).
 //As such, make sure to pad vectors whose v.size()%8 != 0 such that it is the case.
