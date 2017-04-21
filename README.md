@@ -1,2 +1,2 @@
 # AvxAlgorithms
-A repo for high performance AVX vectorized algorithms
+A repo for AVX algorithms
